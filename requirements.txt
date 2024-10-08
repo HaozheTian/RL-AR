@@ -1,0 +1,10 @@
+tqdm==4.66.5
+torch==2.4.1
+numpy==1.26.4
+casadi==3.6.6
+do-mpc==4.6.5
+gymnasium==0.29.1
+matplotlib==3.9.2
+IPython==8.27.0
+ipykernel==6.29.5
+tensorboard==2.18.0
