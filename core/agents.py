@@ -735,7 +735,7 @@ class RLAR(SAC):
         observations, acts_mpc, acts_sac = np.array(observations), np.array(acts_mpc), np.array(acts_sac)
 
         self._plot_obs_act(np.array(observations),
-                        np.array(acts), np.array(acts_sac))
+                        np.array(acts_sac), np.array(acts_mpc))
 
         episodic_return, eps_length = 0, 0
         episodic_beta = np.zeros(self.env.action_space.shape, dtype=np.float32)
